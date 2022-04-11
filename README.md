@@ -1,2 +1,2 @@
 # JavaTrains
-Semestr 2 - PAU
+Semestr 4 - Programowanie Aplikacji Użytkowych
