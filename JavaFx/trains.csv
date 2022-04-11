@@ -1,0 +1,19 @@
+name;seats;state;empty seats;price;departure time;arrival time;start station;end station
+nn12;5;nowy;5;32;8:34;9:34;Station1;Station2
+okn67;4;nowy;4;23;9:38;12:34;Station2;Station3
+kk89;6;nowy;6;42;3:03;9:34;Station2;Station4
+aaa123;6;nowy;6;46;5:12;6:14;Station3;Station2
+k456;6;nowy;6;20;10:38;11:09;Station1;Station4
+k1kkh21;9;nowy;8;13;11:30;13:04;Station1;Station2
+kjkl;7;nowy;7;48;12:45;14:24;Station4;Station1
+kppppp;23;nowy;21;19;13:56;16:36;Station2;Station1
+kkkkkkk;12;nowy;11;40;15:00;16:11;Station2;Station4
+nnNN12;13;nowy;13;20;8:34;9:34;Station1;Station4
+oknAD67;45;nowy;45;43;10:38;12:34;Station3;Station4
+RWkk89;6;nowy;5;20;6:03;9:34;Station2;Station3
+aADSDaa123;7;nowy;7;20;7:12;8:14;Station2;Station1
+ksqcd456;2;nowy;2;20;10:38;11:09;Station4;Station1
+k1fa121;1;nowy;1;39;14:30;23:04;Station4;Station3
+kjsdgkl;6;nowy;6;17;18:45;19:24;Station4;Station2
+kppfyujgkppp;9;nowy;9;41;23:06;1:36;Station2;Station4
+kkkksafkkk;10;nowy;10;21;15:00;16:11;Station2;Station3

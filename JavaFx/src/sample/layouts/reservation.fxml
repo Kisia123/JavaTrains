@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<TableView fx:controller="sample.controllers.ReservationController" fx:id="tableOfReservations" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+  <columns>
+    <TableColumn fx:id="nameColumn" prefWidth="119.0" text="Imię i Nazwisko" />
+      <TableColumn fx:id="startStColumn" prefWidth="141.0" text="Stacja początkowa" />
+    <TableColumn fx:id="nameTColumn" prefWidth="87.0" text="Nazwa" />
+      <TableColumn fx:id="depColumn" prefWidth="131.0" text="Godzina odjazdu" />
+      <TableColumn fx:id="arrColumn" prefWidth="140.0" text="Godzina przyjazdu" />
+      <TableColumn fx:id="classColumn" minWidth="0.0" prefWidth="59.0" text="Klasa" />
+      <TableColumn fx:id="priceColumn" prefWidth="72.0" text="Cena" />
+  </columns>
+</TableView>

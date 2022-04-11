@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.TicketController">
+   <children>
+      <ComboBox fx:id="startStationBox" layoutX="76.0" layoutY="110.0" prefHeight="40.0" prefWidth="246.0" promptText="Stacja początkowa" visibleRowCount="3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <ComboBox fx:id="endStationBox" layoutX="77.0" layoutY="198.0" prefHeight="40.0" prefWidth="246.0" promptText="Stacja końcowa " visibleRowCount="3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
+      <TextField fx:id="timeTextField" alignment="TOP_CENTER" layoutX="107.0" layoutY="325.0" promptText="np. 9:45">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="85.0" prefWidth="400.0" text="Kup bilet" textAlignment="CENTER" textOverrun="CLIP" underline="true">
+         <font>
+            <Font name="Book Antiqua" size="36.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#321cd7" />
+                  <Stop color="#d12872" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="115.0" layoutY="290.0" text="Wybierz godzinę odjazdu" />
+      <Button fx:id="searchButton" layoutX="132.0" layoutY="382.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="134.0" text="Szukaj" textFill="#411283">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="reservationButton" layoutX="133.0" layoutY="476.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="134.0" text="Twoje rezerwacje">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="serialButton" layoutX="132.0" layoutY="527.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="134.0" text="Zapisz">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>

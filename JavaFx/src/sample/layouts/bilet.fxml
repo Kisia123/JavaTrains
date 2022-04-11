@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.TicketBuyingController">
+   <children>
+      <Button fx:id="buyButton" layoutX="241.0" layoutY="487.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="119.0" text="Kup bilet" />
+      <TextField fx:id="surnameField" layoutX="192.0" layoutY="156.0" prefHeight="35.0" prefWidth="236.0" promptText="np. Kowalski" />
+      <TextField fx:id="nameField" layoutX="192.0" layoutY="86.0" prefHeight="35.0" prefWidth="236.0" promptText="np. Jan" />
+      <Label layoutX="99.0" layoutY="90.0" prefHeight="28.0" prefWidth="38.0" text="Imię:" />
+      <Label layoutX="99.0" layoutY="163.0" text="Nazwisko:" />
+      <ComboBox fx:id="userBox" layoutX="192.0" layoutY="226.0" prefHeight="35.0" prefWidth="236.0" visibleRowCount="3" />
+      <Label layoutX="99.0" layoutY="230.0" prefHeight="28.0" prefWidth="38.0" text="Ulga:" />
+      <ComboBox fx:id="classBox" layoutX="192.0" layoutY="300.0" prefHeight="35.0" prefWidth="236.0" visibleRowCount="3" />
+      <Label layoutX="99.0" layoutY="304.0" prefHeight="28.0" prefWidth="38.0" text="Klasa:" />
+      <Label layoutX="93.0" layoutY="421.0" prefHeight="47.0" prefWidth="78.0" text="Do zapłaty:" />
+      <Label fx:id="priceNumber" layoutX="192.0" layoutY="421.0" prefHeight="47.0" prefWidth="78.0" text="np. 43 zł" />
+   </children>
+</Pane>

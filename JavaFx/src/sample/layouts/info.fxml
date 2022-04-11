@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:controller="sample.controllers.InfoController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox spacing="80.0">
+         <children>
+            <Label prefHeight="40.0" prefWidth="140.0" text="Nazwa pociągu:" />
+            <Label fx:id="nameLabel" prefHeight="40.0" text="Label" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="40.0" spacing="80.0">
+         <children>
+            <Label prefHeight="40.0" prefWidth="140.0" text="Ilość miejsc:" />
+            <Label fx:id ="seatsLabel" prefHeight="40.0" text="Label" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="40.0" spacing="80.0">
+         <children>
+            <Label prefHeight="40.0" prefWidth="140.0" text="Ilość wolnych miejsc:" />
+            <Label fx:id="freeLabel" prefHeight="40.0" text="Label" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="40.0" spacing="80.0">
+         <children>
+            <Label prefHeight="40.0" prefWidth="140.0" text="Stan pociągu:" />
+            <Label fx:id="stateLabel" prefHeight="40.0" text="Label" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="40.0" spacing="80.0">
+         <children>
+            <Label prefHeight="40.0" prefWidth="140.0" text="Cena 1 Klasy:" />
+            <Label fx:id="classOneLabel" prefHeight="40.0" text="Label" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="70.0" layoutY="40.0" spacing="80.0">
+         <children>
+            <Label prefHeight="40.0" prefWidth="140.0" text="Cena 2 Klasy:" />
+            <Label fx:id="classSecLabel" prefHeight="40.0" text="Label" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="230.0" spacing="80.0">
+         <children>
+            <Label prefHeight="40.0" prefWidth="140.0" text="Cena 3 Klasy:" />
+            <Label fx:id="classThLabel" prefHeight="40.0" text="Label" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets left="30.0" />
+   </padding>
+</VBox>
